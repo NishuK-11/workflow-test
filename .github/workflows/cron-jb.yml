@@ -1,6 +1,9 @@
 name: Run Main Python Script
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:  # Manual trigger
 
 jobs:
